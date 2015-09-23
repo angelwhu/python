@@ -36,7 +36,7 @@ class SqlTime(object):
 
         t = form_section[0]
         #if ("Not Authorized" in str(t)) :
-        return response.elapsed.total_seconds();
+        return response.elapsed.total_seconds(); # get respones time .
         #else :
             #return 0;
 
