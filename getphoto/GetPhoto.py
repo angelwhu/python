@@ -12,9 +12,9 @@ from bs4 import BeautifulSoup
 class GetPhotos(object):
 
     def __init__(self , filename):
-        self.username = "2013302010229";
-        self.password = "160820";
-        self.vulnerability_url = "http://my.whu.edu.cn/attachmentDownload.portal?notUseCache=true&type=userPhoto&ownerId=";
+        self.username = "******";
+        self.password = "*****";
+        self.vulnerability_url = "http://*****/attachmentDownload.portal?notUseCache=true&type=userPhoto&ownerId=";
         self.filename = filename;
         # "ziliao/cs-2015-graduate.csv"
 
