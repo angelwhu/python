@@ -24,7 +24,7 @@ def put_session(cookies):
                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
                "Cookie": "PHPSESSID="+cookies,
                "Connection": "keep-alive"}
-    datas = {"image": "http://121.42.175.111:9999/pwnhub.png"}
+    datas = {"image": "http://******/pwnhub.png"}
     r = requests.post(url, headers=headers, data=datas)
     print r.content
 
