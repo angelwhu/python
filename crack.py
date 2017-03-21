@@ -11,7 +11,7 @@ def md5(src):
 def crack(deep,pw):
     if deep == 0:
         return;
-    for c in string.printable:
+    for c in string.printable[0:94]:
         crack(deep-1,pw + c)
 
         passwd  = pw + c
