@@ -35,7 +35,7 @@ class GetPhotos(object):
 
     def initSession(self):
         self.session = requests.Session()
-        url = "https://uis.whu.edu.cn/amserver/UI/Login?goto=http://my.whu.edu.cn";
+        url = "https://*********/";
         post_data = {'IDToken1':self.username, 'IDToken2':self.password,
                      'IDButton':'Submit','goto':'aHR0cDovL215LndodS5lZHUuY24%3D','encoded':'true','gx_charset':'UTF-8'}
 
